@@ -58,3 +58,18 @@ body {
     margin: 0 auto;
     background: linear-gradient(150deg, #3366ff, #000);
 }
+
+@media (max-width: 768px) {
+    #root {
+        align-items:center;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
